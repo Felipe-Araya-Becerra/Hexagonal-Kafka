@@ -1,7 +1,7 @@
-package com.acl.hexagonal.infraestructure.out;
+package com.acl.hexagonal.infraestructure.out.adapters;
 
 import com.acl.hexagonal.domain.Card;
-import com.acl.hexagonal.infraestructure.out.CardRepository;
+import com.acl.hexagonal.infraestructure.out.ports.CardRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
